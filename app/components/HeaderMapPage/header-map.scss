@@ -1,0 +1,25 @@
+.header--map-page {
+    background-image: url(~images/header_bg.png);
+    background-size: 100% 100%;
+    .map--pager-search{
+        padding: 20px 0 50px;
+        .MuiInputBase-root{
+            &:hover{
+                border: none;
+            }
+        }
+    }
+    .MuiOutlinedInput-input{
+        padding: 10px 15px!important;
+        border: none!important;
+    }
+    .MuiInputBase-root{
+        &:hover{
+            border: none!important;
+        }
+    }
+    .MuiInput-underline:before{
+        border: none!important
+    }
+
+}

@@ -1,0 +1,23 @@
+/*
+ *
+ * SignUpPage constants
+ *
+ */
+
+enum ActionTypes {
+  DEFAULT_ACTION = 'app/SignUpPage/DEFAULT_ACTION',
+  POST_SIGN_UP = 'app/SignUpPage/POST_SIGN_UP',
+  POST_SIGN_UP_SUCCESS = 'app/SignUpPage/POST_SIGN_UP_SUCCESS',
+  POST_SIGN_UP_ERROR = 'app/SignUpPage/POST_SIGN_UP_ERROR',
+  CLEAR_SIGN_UP = 'app/SignUpPage/CLEAR_SIGN_UP',
+
+  LOGIN_FACEBOOK = 'app/SignUpPage/LOGIN_FACEBOOK',
+  LOGIN_FACEBOOK_SUCCESS = 'app/SignUpPage/LOGIN_FACEBOOK_SUCCESS',
+  LOGIN_FACEBOOK_ERROR = 'app/SignUpPage/LOGIN_FACEBOOK_ERROR',
+
+  LOGIN_GOOGLE = 'app/SignUpPage/LOGIN_GOOGLE',
+  LOGIN_GOOGLE_SUCCESS = 'app/SignUpPage/LOGIN_GOOGLE_SUCCESS',
+  LOGIN_GOOGLE_ERROR = 'app/SignUpPage/LOGIN_GOOGLE_ERROR',
+}
+
+export default ActionTypes;

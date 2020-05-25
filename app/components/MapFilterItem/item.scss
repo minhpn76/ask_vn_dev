@@ -1,0 +1,34 @@
+.filter--my-recommend-content {
+  .horizontal-menu {
+    margin: 10px 0;
+  }
+
+  .menu-item-wrapper {
+    padding-left: 8px;
+  }
+}
+
+.map--filter-item {
+  height: 120px;
+  width: auto;
+
+  &.active {
+    .MuiPaper-root {
+      border-color: red;
+    }
+  }
+
+  .MuiPaper-root {
+    box-shadow: none !important;
+    position: relative;
+    border: 1px dashed #ccc;
+    height: 120px;
+  }
+
+  .MuiCardMedia-root {
+    height: 70px;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 5px;
+  }
+}

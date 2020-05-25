@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Saigon",
+      "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_map.jpg",
+      "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_map.jpg",
+      "created_at": null,
+      "updated_at": null,
+      "latitude": 10.77134,
+      "longitude": 106.69313
+    },
+    {
+      "id": 2,
+      "name": "Saigon Nightlife",
+      "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_nightlife.jpg",
+      "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_nightlife.jpg",
+      "created_at": null,
+      "updated_at": null,
+      "latitude": 10.77134,
+      "longitude": 106.69313
+    },
+    {
+      "id": 3,
+      "name": "Saigon 5-Senses",
+      "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_5senses.jpg",
+      "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_5senses.jpg",
+      "created_at": null,
+      "updated_at": null,
+      "latitude": 10.77134,
+      "longitude": 106.69313
+    },
+    {
+      "id": 4,
+      "name": "Cao Lanh Map",
+      "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/cl_map.jpg",
+      "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/cl_map.jpg",
+      "created_at": null,
+      "updated_at": null,
+      "latitude": 10.46329,
+      "longitude": 105.6256
+    },
+    {
+      "id": 5,
+      "name": "Sadec Map",
+      "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sd_map.png",
+      "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sd_map.png",
+      "created_at": null,
+      "updated_at": null,
+      "latitude": 10.30874,
+      "longitude": 105.76971
+    }
+  ]

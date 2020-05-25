@@ -1,0 +1,87 @@
+.sign--up {
+    padding: 50px 0;
+    height: 100%;
+    background-image: url(~images/signup_bg.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .form--control{
+        width: 100%;
+        margin-bottom: 20px;
+        label {
+            font-size: 20px;
+            color: #5d3709;
+            padding-left: 15px;
+        }
+    }
+    .MuiOutlinedInput-input{
+        padding: 10px!important;
+    }
+    .MuiFormControl-marginNormal{
+        margin-top: 20px;
+    }
+    .input--signup{
+        padding-top: 50px;
+    }
+    .action--forgot {
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px;
+        font-size: 13px;
+        a {
+            color: #5d3709;
+        }
+    }
+    .action--login {
+        padding-bottom: 10px!important;
+    }
+    .action--signup {
+        text-align: center;
+        padding-bottom: 70px;
+        .btn--signup {
+            color: #fff;
+            background-color: #FCBD1A;
+            padding: 5px 50px;
+            font-size: 20px;
+            border-radius: 100px;
+            border-bottom: 3px solid #CF4400;
+        }
+        .description {
+            color:  #FBBC14;
+            margin: 30px 0 10px 0;
+            font-size: 15px;
+        }
+    }
+}
+.nav--already{
+    background-image: url(~images/gradient_bg.png);
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    .text--have--account {
+        color: #F7D859;
+        padding-top: 75px;
+    }
+    .btn--signin {
+        color: #fff;
+        background: linear-gradient(4deg, rgba(208,96,8,1) 0%, rgba(252,202,13,1) 100%);
+        padding: 5px 30px;
+        font-size: 13px;
+        border-radius: 100px;
+    }
+}
+#app {
+    padding-bottom: 0!important;
+}
+.MuiDialogTitle-root {
+    text-align: center;
+    .icon--error{
+        color: #CF4400;
+        font-size: 45px;
+    }
+}
+.MuiDialogContent-root {
+    text-align: center;
+}

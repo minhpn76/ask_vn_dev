@@ -1,0 +1,57 @@
+{
+  "icons": [
+    {
+      "src": "/icon_180x180.f4794beca6106e87a32164e0cbb351ec.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_167x167.35b5a48bb2cc371c4d60320905e092d9.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_152x152.6a597bbbb48fef98b8c9a0e190d18c5f.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_120x120.7faf35f89e0c3bdf5110cd056a1cc9db.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.ac36df210ebfbf188578a44960bb7684.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_144x144.5cc3f924470d160c254a6a82fde4954f.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.f4505585c59735b3338257b6355b0fb3.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.c9d9b4c7a17da7c7d54ffd53c3f33645.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_72x72.013ec4c7373256510378fc61e6f304af.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "name": "Ask vietnamese",
+  "short_name": "AskVN",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Ask vietnamese",
+  "background_color": "#fafafa",
+  "theme_color": "#b1624d"
+}

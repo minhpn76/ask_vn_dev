@@ -1,0 +1,15 @@
+{
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjYxZmYwZjhjMGVkNGI1YzQ0NDYwMDc1MzRkZWZjNGZiODc1NTg0NjY4NzJmN2Y3MTJhM2M2OWVmNDAyZWI1ODY0NzFmOTM4ZmMxY2VjM2ZmIn0.eyJhdWQiOiIxIiwianRpIjoiNjFmZjBmOGMwZWQ0YjVjNDQ0NjAwNzUzNGRlZmM0ZmI4NzU1ODQ2Njg3MmY3ZjcxMmEzYzY5ZWY0MDJlYjU4NjQ3MWY5MzhmYzFjZWMzZmYiLCJpYXQiOjE1ODYyNjk3NzIsIm5iZiI6MTU4NjI2OTc3MiwiZXhwIjoxNjE3ODA1NzcyLCJzdWIiOiI2OCIsInNjb3BlcyI6W119.hfehcDzhM2QRLCjtRrK5XSpNSx3S3TwdMFphusJ-Im9vWw6IQwqN_K3iUe6LtK8_Gzb5Z54ys_f_yVLAS0wiDO6fM-aiSitTwMlFOJj5EI-DnT2MIoAH3xL1eJYOJDa2ygGMZuWmmbaqnwJTbLjv1iW3_k3wsiErQSHEN0O1RN1zK9mKd2MnryfRFFSgQpPygNoOPpv6OVukK5hkOQ0h1hv3-GW76Dp0Q0iiKITZI1cU4iLp3d7a62boaItmLUzGTfS-XNWU9-6vyi9zqU9SKhC6NzfRclaGR5FdHqxB_RL3dnKjdpY0HnXJXf9r7X8jsRWI8zQLTQafxilqsNR9udlBoY6w9MprStJ9JiA50uie6IT-c061Jzb6XrXkkJcGL7UVAc48fz4_45LvVb2PkMpx06hiFNaPtXP-iBQn27PCG81K0UcE7T9-0rwd_G_kLsbE3lX8jljPipwLtR2PvweOQ0wn_o2vVKQXW1f4NwMKlzWUILePe5d6fKqr2iH75_xGuIGln3E9fYOEhY-hBO-teHdbVP12QdNeDe6djICgfvuPuwZNx7jtQa11s72bnZLEQMhrzHE31sF5KypXrjsqZxJ6fDy7FoLhviWFwBllOwNL5X4HiWpoUT80MbCMxXV6Uth9W201EauMBGyxtPoiDXqpVLJKJVOcMyySrv4",
+    "user": {
+      "id": 68,
+      "name": "khanh",
+      "email": "me@khanh.page",
+      "email_verified_at": null,
+      "created_at": "2020-03-21 08:35:50",
+      "updated_at": "2020-03-21 08:35:50",
+      "avatar": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/avatar\/logo.png",
+      "country": "us",
+      "is_admin": 1
+    },
+    "s3BaseUrl": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/"
+}

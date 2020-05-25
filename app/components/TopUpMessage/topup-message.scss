@@ -1,0 +1,83 @@
+.topup--messages {
+  background: #0000;
+  position: relative;
+  .MuiPaper-root {
+    background: #0000;
+    justify-content: center;
+    align-items: center;
+    .box--messages {
+      // background: #fff;
+      width: 80%;
+      border-radius: 20px;
+      position: relative;
+      padding: 0;
+      .btn--close {
+        position: absolute;
+        z-index: 10;
+        right: 5px;
+        top: 0px;
+      }
+      .MuiIconButton-colorSecondary {
+        color: #fff;
+        background-color: red;
+        &:hover {
+          background-color: red;
+        }
+      }
+      .bg--messages {
+        background-image: url(~images/pop_congrats.png);
+        background-size: 100% 100%;
+      }
+
+      &.sign-up {
+        .bg--messages {
+          background-image: url(~images/popup.png);
+          background-size: 100% 100%;
+        }
+
+        .btn--close {
+          top: 40px;
+        }
+      }
+      .content--messages {
+        position: relative;
+        padding: 170px 0px;
+        justify-content: center;
+        display: flex;
+        .messages--box {
+          position: absolute;
+          top: 180px;
+          .messages--congrats {
+            font-size: 18px;
+            font-weight: 700;
+          }
+          .messages--point {
+            font-size: 16px;
+            .points {
+              font-weight: 700;
+            }
+          }
+        }
+
+        .MuiTypography-root {
+          color: #f79528;
+          text-align: center;
+          font-weight: 100
+        }
+        .btn--submit {
+          background-color: #f79528;
+          border-radius: 20px;
+          border-bottom: 4px solid #b75107;
+          position: absolute;
+          top: 250px;
+          padding: 6px 16px;
+          .MuiButton-label {
+            color: #fff;
+            font-weight: 700;
+            padding: 3px;
+          }
+        }
+      }
+    }
+  }
+}

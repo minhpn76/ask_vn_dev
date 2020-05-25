@@ -1,0 +1,32 @@
+.map--filter-tabs {
+  text-align: center;
+  margin-top: 20px;
+
+  .map--filter-tab {
+    text-align: center;
+    height: 4.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.slick-current {
+  .map--filter-tab {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #da6704;
+  }
+}

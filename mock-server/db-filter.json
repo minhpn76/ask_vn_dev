@@ -1,0 +1,22 @@
+[
+    {
+      "id": 23,
+      "map_id": 4,
+      "name": "Breakfast",
+      "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/markers\/cl\/cl_breakfast.png",
+      "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/markers\/cl\/cl_breakfast.png",
+      "created_at": null,
+      "updated_at": null,
+      "travel_id": "cl_breakfast"
+    },
+    {
+      "id": 24,
+      "map_id": 4,
+      "name": "Checkin with Lotus",
+      "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/markers\/cl\/cl_checkin_with_lotus.png",
+      "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/markers\/cl\/cl_checkin_with_lotus.png",
+      "created_at": null,
+      "updated_at": null,
+      "travel_id": "cl_checkin_with_lotus"
+    }
+]

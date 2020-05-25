@@ -1,0 +1,51 @@
+.maps--container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .map-element{
+        width: 100%;
+        position: relative;
+        margin-bottom: 12px;
+        .card--item {
+            border-radius: 30px;
+        }
+        .header{
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            padding: 5px;
+            float: left;
+            width: 100%;
+        }
+        .bottom {
+            position: absolute;
+            bottom: 0;
+            z-index: 10;
+            background-color: #63605787;
+            color: #fff;
+            float: left;
+            width: 100%;
+            padding: 10px 25px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            .box--name--map{
+                display: flex;
+                align-items: center; 
+            }
+            .name--map{
+                margin-bottom: 5px;
+            }
+            .btn--readmore{
+                background: linear-gradient(184deg, #fbcb1d 0%, #da6704 100%);
+                color: #fff;
+                border: none;
+                border-radius: 30px;
+                text-align: center;
+                width: 100%;
+                .MuiButton-label{
+                    font-size: 12px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

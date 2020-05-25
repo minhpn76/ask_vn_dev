@@ -1,0 +1,22 @@
+.Illustrator--container {
+  .Illustrator--card {
+    border-radius: 12px;
+    width: 150px;
+    .MuiCardContent-root{
+        padding: 10px 15px 5px;
+    }
+    p {
+      font-size: .8rem;
+      height: 1.2rem * 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      line-height: 1.2rem;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    .MuiCardMedia-img {
+      height: 100px;
+    }
+  }
+}

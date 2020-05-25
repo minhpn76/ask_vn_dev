@@ -1,0 +1,110 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-react-hooks"
+  ],
+  "rules": {
+    "arrow-parens": [
+      false
+    ],
+    "class-name": false,
+    "eofline": false,
+    "indent": [
+      true,
+      "spaces",
+      4
+    ],
+    "import-name": [
+      false
+    ],
+    "increment-decrement": true,
+    "interface-name": false,
+    "jsx-alignment": false,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsx-self-close": false,
+    "react/jsx-wrap-multilines": [
+      "error",
+      {
+        "declaration": "parens-new-line",
+        "assignment": "parens-new-line",
+        "return": "parens-new-line",
+        "arrow": "parens-new-line",
+        "condition": "parens-new-line",
+        "logical": "ignore",
+        "prop": "ignore"
+      }
+    ],
+    "max-line-length": [
+      true,
+      {
+        "limit": 140,
+        "ignore-pattern": "^import |^export {(.*?)}",
+        "check-strings": true,
+        "check-regex": true
+      }
+    ],
+    "member-access": false,
+    "member-ordering": [
+      false
+    ],
+    "no-console": [
+      false
+    ],
+    "no-empty": false,
+    "no-empty-interface": false,
+    "no-implicit-dependencies": false,
+    "no-trailing-whitespace": false,
+    "no-consecutive-blank-lines": [
+      true,
+      2
+    ],
+    "no-shadowed-variable": false,
+    "no-string-literal": false,
+    "no-submodule-imports": false,
+    "no-unused-variable": [
+      false,
+      "react"
+    ],
+    "no-var-requires": false,
+    "object-literal-shorthand": [
+      false,
+      "never"
+    ],
+    "object-literal-sort-keys": false,
+    "one-line": false,
+    "ordered-imports": false,
+    "prefer-const": false,
+    "quotemark": [
+      false
+    ],
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ],
+    "trailing-comma": false,
+    "ter-indent": [
+      true,
+      4
+    ],
+    "variable-name": {
+      "options": [
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case",
+        "allow-snake-case"
+      ]
+    },
+    "whitespace": [
+      false
+    ]
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/*.js"
+    ]
+  }
+}

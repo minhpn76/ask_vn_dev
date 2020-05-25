@@ -1,0 +1,15 @@
+.address--element-wrap {
+  display: block;
+  padding-left: 16px;
+  .element--title {
+    font-size: 0.8rem;
+    display: inline;
+    font-weight: bold;
+
+    span {
+      font-weight: bold;
+      font-size: 120%;
+      color: #f24c34;
+    }
+  }
+}

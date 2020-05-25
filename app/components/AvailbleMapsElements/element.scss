@@ -1,0 +1,74 @@
+.element--hr {
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid #e1e1e1;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.element--container {
+  padding-top: 20px;
+}
+.element--title-wrap {
+  padding-left: 16px;
+  display: block;
+  .element--title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline;
+
+    span {
+      font-size: 80%;
+    }
+  }
+  .element--viewmore {
+    float: right;
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    a {
+      text-decoration: none;
+      color: #f24c34;
+    }
+  }
+}
+
+.element--subtittle-wrap {
+  padding-left: 16px;
+  .element--subtittle {
+    font-size: 0.55rem;
+    span {
+      color: #f24c34;
+      text-transform: uppercase;
+      &.noUppercase {
+        text-transform: none;
+      }
+    }
+  }
+}
+
+.element--maps-avatar {
+  .MuiCard-root {
+    border-radius: 13px;
+  }
+
+  .element--maps-card {
+    width: 150px;
+
+    .element--maps-image {
+      height: 140px;
+    }
+  }
+}
+
+.horizontal-menu {
+  margin: 10px 0;
+  .menu-item-wrapper {
+    padding-left: 8px;
+    &:first-of-type {
+      padding-left: 8px;
+    }
+    &:last-of-type {
+      padding-right: 8px;
+    }
+  }
+}

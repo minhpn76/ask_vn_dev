@@ -1,0 +1,51 @@
+.filter--my-location {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.filter--my-button {
+  color: #fa9026 !important;
+  background: #fff !important;
+  padding: 6px !important;
+}
+
+.filter--my-list {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+
+  .expand--btn {
+    position: absolute;
+    bottom: 20px;
+  }
+}
+
+.filter--my-recommend {
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  .filter--my-recommend-header {
+    padding: 10px 10px 5px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+
+    .filter--title {
+      font-weight: bold;
+      padding: 6px 8px;
+    }
+
+    .filter--button-list {
+      border: 1px solid #ccc;
+
+      .MuiButton-label {
+        text-transform: capitalize !important;
+      }
+    }
+  }
+}

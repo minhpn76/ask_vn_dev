@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Saigon",
+    "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_map.jpg",
+    "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_map.jpg",
+    "created_at": null,
+    "updated_at": null,
+    "latitude": 10.77134,
+    "longitude": 106.69313
+  },
+  {
+    "id": 2,
+    "name": "Ha Noi",
+    "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_map.jpg",
+    "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_map.jpg",
+    "created_at": null,
+    "updated_at": null,
+    "latitude": 21.027763,
+    "longitude": 105.834160
+  },
+  {
+    "id": 3,
+    "name": "Da Nang",
+    "icon": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_map.jpg",
+    "pin": "https:\/\/s3-ap-southeast-1.amazonaws.com\/askvietnamese.vn\/app_askv\/maps\/sg_map.jpg",
+    "created_at": null,
+    "updated_at": null,
+    "latitude": 16.054407,
+    "longitude": 108.202164
+  }
+]

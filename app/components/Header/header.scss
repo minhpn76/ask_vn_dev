@@ -1,0 +1,31 @@
+.header--background{
+    background-image: url(~images/header_bg.png);
+    background-size: 100% 100%;
+    .header--container {
+        padding: 20px;
+    }
+    .alert--infor {
+        text-align: center;
+        color:  #ffffff;
+        .typography{
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+    }
+    .icon--girl{
+        height: 87px;
+        width: 52px;
+    }
+    .icon--messenger, .icon--location {
+        height: 70px;
+        width: 70px;
+    }
+    .box-messenger{
+        margin: auto 0 auto auto;
+        display: table;
+    }
+    .box-location{
+        margin: auto auto auto 0;
+        display: table;
+    }
+}

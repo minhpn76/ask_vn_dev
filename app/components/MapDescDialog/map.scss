@@ -1,0 +1,170 @@
+.map--desc-dialog {
+  .MuiDialog-container {
+    padding-top: 3rem !important;
+
+    .MuiDialog-paperFullScreen {
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+      overflow: inherit;
+      position: relative;
+
+      .map--desc-dialog-header {
+        position: absolute;
+        width: 100%;
+        padding: 0 1rem;
+        top: -1rem;
+        display: flex;
+        align-content: flex-end;
+        justify-content: flex-end;
+
+        .MuiIconButton-colorSecondary {
+          color: #fff;
+          background-color: red;
+          z-index: 2;
+        }
+      }
+
+      .map--desc-dialog-image {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        overflow: hidden;
+        background-color: #cccccc;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .map--desc-dialog-wrap {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+
+    .map--desc-dialog-heading {
+      color: #da6704;
+    }
+
+    .map--desc-dialog-heading-icon {
+      color: red;
+    }
+  }
+
+  .map--desc-dialog-summary {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+
+    .map--desc-dialog-summary-address {
+      color: #da6704;
+    }
+
+    .map--desc-dialog-opening-btn {
+      text-transform: none;
+      padding: 0;
+      color: #da6704;
+    }
+  }
+
+  .map--desc-dialog-scroll {
+    height: calc(100% - 60px);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+.map--desc-dialog-summary-opening-hour {
+  .MuiMenuItem-root {
+    color: #da6704;
+    font-size: .8rem;
+    min-height: 30px;
+
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
+
+.map--desc-dialog-information {
+  .map--desc-dialog-information-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .map--desc-dialog-information-content {
+    font-size: 0.8rem;
+  }
+}
+
+.map--desc-dialog-action {
+  background-color: #fff;
+  height: 60px;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  .map--desc-dialog-action-event {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    &.can-check-in {
+      justify-content: space-between;
+    }
+  }
+
+  .map--desc-dialog-action-btn {
+    color: #fff;
+    background: linear-gradient(4deg, rgba(208, 96, 8, 1) 0%, rgba(252, 202, 13, 1) 100%);
+    padding: 5px 30px;
+    font-size: 13px;
+    border-radius: 100px;
+    line-height: 1.5rem;
+    height: 36px;
+  }
+}
+
+.map--desc-dialog-information-list {
+  padding-bottom: 1rem !important;
+  margin-bottom: 1rem !important;;
+  border-bottom: 1px solid #ccc;
+
+  .MuiListItem-gutters {
+    padding: 0 !important;
+  }
+
+  .MuiSvgIcon-root {
+    color: #da6704;
+  }
+
+  .MuiListItemIcon-root {
+    min-width: 40px;
+  }
+
+  .MuiTypography-root {
+    font-size: 0.8rem;
+  }
+}
+
+.map--desc-dialog-information-rate-title {
+  font-size: 0.8rem !important;
+  padding-top: 8px;
+}
+
+.map--desc-dialog-information-rate-get-point {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #da6704;
+}
+
+.map--desc-dialog-information-rate-image {
+  height: 30px;
+  width: 30px;
+}

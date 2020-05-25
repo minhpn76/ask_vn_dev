@@ -1,0 +1,45 @@
+.topup--account {
+    background: #0000;
+    position: relative;
+    .MuiPaper-root {
+        background: #0000;
+        position: relative;
+        .account--action{
+            position: absolute;
+            background: #fff;
+            border-radius: 20px;
+            width: 60%;
+            top: 60px;
+            right: 30px;
+            .box--action {
+                position: relative;
+            }
+        }
+    }
+    .btn--close {
+        position: absolute;
+        z-index: 10;
+        right: -25px;
+        top: -10px;
+
+    }
+    .MuiIconButton-colorSecondary {
+        color: #fff;
+        background-color: red;
+        &:hover{
+            background-color: red;
+        }
+    }
+    .item--flag {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .icon--flag svg{
+        font-size: 30px;
+        color: #E55B00;
+    }
+    .text--flag {
+        color: #E55B00;
+    }
+}

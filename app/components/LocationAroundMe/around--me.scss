@@ -1,0 +1,61 @@
+.popover-loaction {
+    .MuiPaper-root {
+        background: #fff0;
+        // border-radius: 20px!important;
+        box-shadow: inherit;
+    }
+    .topup-around{
+        background: #fff0;
+        padding: 10px;
+        padding-top: 17px;
+        position: relative;
+        .imageLocation{
+            height: 50px;
+            width: 50px;
+            object-fit: contain;
+        }
+        .MuiGrid-root{
+            background: #fff;
+            border-radius: 10px;
+            padding: 3px 5px;
+        }
+        .box--action{
+            
+            position: absolute;
+            right: 0px;
+            top: 2px;   
+            .MuiIconButton-colorSecondary{
+                color: #fff;
+                background-color: red;
+            }
+            
+            .MuiIconButton-sizeSmall{
+                padding: 0px !important;
+                font-size: 0.75rem !important;
+            }    
+        }
+        .text {
+            color: #fa9026;
+            font-size: 12px;
+        }
+
+    }
+}
+
+.topup--mess{
+    position: absolute;
+    top: 70px;
+    .MuiBackdrop-root{
+        background: transparent;
+    }
+    .MuiPaper-root{
+        background: transparent;
+    }
+    .container--locaiton{
+        z-index: 999999999;
+        padding: 0!important;
+    }
+}
+// .img img{
+//     height: 80px;
+// }
