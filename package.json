@@ -94,7 +94,7 @@
     "lodash": "^4.17.15",
     "map-icons": "^3.0.3",
     "minimist": "1.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-facebook-login": "^4.1.1",
